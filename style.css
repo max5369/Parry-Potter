@@ -1,0 +1,82 @@
+.aboutbooks {
+    top: 16px;
+    background-color: #4b000098;
+}
+
+.film {
+    top: 90px;
+    background-color: hsla(158, 96%, 10%, 0.608);
+}
+
+.other_facts {
+    top: 142px;
+    background-color: #a67d0083;
+}
+
+.main_page {
+    top: 194px;
+    background-color: #1d4e8975;
+}
+
+nav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+nav a:hover {
+    left: 0;
+
+}
+
+body {
+    background-color: #4B0000;
+}
+
+header h1 {
+    background-image: linear-gradient(to left, orange, aqua);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(100, 4, 100);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.meme-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding: 10px;
+}
+
+.meme-block h3 {
+    width: 60%;
+    font-size: 16px;
+}
+
+.meme-block img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.meme-block h3 {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    padding: 15px;
+    border-radius: 12px;
+    color: #4B0000;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
